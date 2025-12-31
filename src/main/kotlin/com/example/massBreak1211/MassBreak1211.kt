@@ -1,3 +1,5 @@
+package com.example.massBreak1211
+
 import com.jeff_media.customblockdata.CustomBlockData
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.NamedTextColor
@@ -31,7 +33,7 @@ import java.io.File
 import java.util.*
 import kotlin.random.Random
 
-class MassBreakPlugin : JavaPlugin(), Listener {
+class MassBreak1211 : JavaPlugin(), Listener {
 
     companion object {
         private const val PERM_RELOAD = "massbreak.reload"
