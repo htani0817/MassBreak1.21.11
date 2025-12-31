@@ -1,0 +1,26 @@
+name: MassBreak
+main: com.example.massBreak1211.MassBreak1211
+version: ${version}
+api-version: "1.21"
+
+libraries:
+  - com.jeff-media:custom-block-data:2.2.5
+
+commands:
+  mbtoggle:
+    description: Toggle mass-break
+    usage: "/mbtoggle"
+  mbauto:
+    description: Toggle auto-pickup
+    usage: "/mbauto"
+  mbreload:
+    description: Reload MassBreak configs
+    usage: "/mbreload"
+    permission: massbreak.reload
+  mb:
+    description: Open setup GUI
+    usage: "/mb setup"
+
+permissions:
+  massbreak.reload:
+    default: op
